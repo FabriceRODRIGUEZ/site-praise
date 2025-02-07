@@ -1,0 +1,75 @@
+body {
+    margin: calc(50px + 20px) 50px 20px;
+    background-color: lavenderblush;
+}
+
+nav#menu {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 50px;
+    display: flex;
+    border-bottom: 2px solid black;
+    background-color: darksalmon;
+    box-sizing: border-box;
+}
+
+nav#menu button {
+    padding: 0;
+    flex-grow: 1;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+nav#menu button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1#titre {
+    display: block;
+    margin: 0 auto 20px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    text-decoration: underline;
+}
+
+ul#informations {
+    margin: 20px 0;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+}
+
+li.information { margin-bottom: 10px; }
+li.information:last-child { margin-bottom: 0; }
+li.information strong { text-decoration: underline; }
+
+div#illustrations_contacts {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+
+div#illustrations_contacts img {
+    width: 45%;
+}
+
+div#repetitions {
+    margin: 20px auto 0;
+    width: max-content;
+    height: 25px;
+    color: crimson;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* - - - */
+
+/* h1#titre { border: 2px solid black; } */
+/* ul#informations { border: 2px solid black; } */
+/* div#illustrations_contacts { border: 2px solid black; } */
+/* div#repetitions { border: 2px solid black; } */
