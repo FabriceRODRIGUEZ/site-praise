@@ -1,0 +1,106 @@
+body {
+    margin: calc(50px + 20px) 50px 30px;
+    background-color: lavenderblush;
+}
+
+nav#menu {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 50px;
+    display: flex;
+    background-color: darksalmon;
+    box-shadow: 0 0 5px black;
+}
+
+nav#menu button {
+    padding: 0;
+    flex-grow: 1;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+nav#menu button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1#titre {
+    display: block;
+    margin: 0 auto 30px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    text-decoration: underline;
+}
+
+div#liste_concerts {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+div.concert {
+    padding: 20px;
+    border: 3px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	background-color: darksalmon;
+	box-sizing: border-box;
+}
+
+h2.titre_concert {
+    display: block;
+    margin: 0 auto 20px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+div.illustrations_concert {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img.affiche_concert {
+    display: block;
+    height: 60vh;
+}
+
+img.photo_concert {
+    display: block;
+    height: 50vh;
+}
+
+a.lien_concert {
+    display: block;
+    margin: 20px auto 0;
+    width: max-content;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    font-weight: bold;
+    color: maroon;
+}
+
+/* - - - */
+
+@media(max-width: 600px) {
+
+    nav#menu button {
+        width: min-content;
+        font-size: medium;
+    }
+
+}
+
+/* - - - */
+
+/* h1#titre { border: 2px solid black; } */
+/* div#liste_concerts { border: 2px solid black; } */
+/* div.illustrations_concert { border: 2px solid black; } */
