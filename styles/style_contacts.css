@@ -70,9 +70,39 @@ div#repetitions {
 
 @media(max-width: 600px) {
 
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
     nav#menu button {
-        width: min-content;
         font-size: medium;
+    }
+
+    h1#titre {
+        font-size: larger;
+    }
+
+    ul#informations {
+        font-size: medium;
+        text-wrap-style: balance;
+    }
+
+    div#illustrations_contacts {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    div#illustrations_contacts img {
+        width: 100%;
+        height: auto;
+    }
+
+    div#repetitions {
+        height: 45px;
+        max-width: 100%;
+        text-align: center;
+        text-wrap-style: balance;
     }
 
 }

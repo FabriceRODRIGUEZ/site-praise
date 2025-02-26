@@ -51,10 +51,12 @@ div#section_logo {
 
 img#logo {
     height: 33vh;
+    width: auto;
 }
 
 img#prochain_concert {
     height: 75vh;
+    width: auto;
 }
 
 div#section_concerts {
@@ -94,13 +96,15 @@ ul#prochains_concerts li:last-child { margin-bottom: 0; }
 @media(max-width: 600px) {
 
     nav#menu button {
-        width: min-content;
         font-size: medium;
     }
 
     h1#titre {
+        max-width: 100%;
         margin-bottom: 20px;
-        font-size: large;
+        font-size: x-large;
+        text-align: center;
+        text-wrap-style: balance;
     }
     
     div#accueil {
@@ -115,6 +119,15 @@ ul#prochains_concerts li:last-child { margin-bottom: 0; }
 
     img#prochain_concert {
         width: 100%;
+        height: auto;
+    }
+
+    div#section_concerts h2 {
+        font-size: medium;
+    }
+
+    ul#prochains_concerts {
+        font-size: medium;
     }
 
 }

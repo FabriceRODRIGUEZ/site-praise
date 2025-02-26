@@ -92,8 +92,46 @@ a.lien_concert {
 
 @media(max-width: 600px) {
 
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
     nav#menu button {
-        width: min-content;
+        font-size: medium;
+    }
+
+    h1#titre {
+        margin-bottom: 20px;
+        font-size: larger;
+    }
+
+    div#liste_concerts {
+        margin-top: 20px;
+    }
+
+    h2.titre_concert {
+        font-size: large;
+    }
+
+    div.illustrations_concert {
+        margin-bottom: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    img.affiche_concert {
+        width: 70%;
+        height: auto;
+    }
+    
+    img.photo_concert {
+        width: 100%;
+        height: auto;
+    }
+
+    a.lien_concert {
+        margin-top: 10px;
         font-size: medium;
     }
 
