@@ -80,7 +80,7 @@ div#section_concerts h2 {
 ul#prochains_concerts {
     display: block;
     margin: 0;
-    /* transform: translateX(-10px); */
+    transform: translateX(-37px);
     font-family: "Times New Roman", serif;
     font-size: large;
 }
