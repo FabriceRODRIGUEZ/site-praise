@@ -61,13 +61,15 @@ img#chorale {
 
 div:last-child {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     justify-content: center;
 }
 
 video#presentation {
     display: block;
     width: 50vw;
+    height: auto;
+    box-shadow: 0 0 5px black;
 }
 
 /* - - - */
@@ -88,14 +90,10 @@ video#presentation {
         font-size: larger;
     }
 
-    div#presentation {
+    h1#titre + div {
         margin-top: 20px;
         flex-direction: column;
         gap: 20px;
-    }
-
-    div#description p {
-        margin: 10px 0;
     }
 
     img#chorale {
