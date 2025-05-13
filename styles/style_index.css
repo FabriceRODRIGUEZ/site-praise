@@ -13,7 +13,7 @@ nav#menu {
 }
 
 nav#menu button {
-    padding: 0;
+    padding: 0px;
     flex-grow: 1;
     font-family: "Times New Roman", serif;
     font-size: large;
@@ -30,7 +30,7 @@ nav#menu button:hover {
 
 h1#titre {
     display: block;
-    margin: 0 auto 30px;
+    margin: 0 auto 20px;
     width: max-content;
     font-family: "Lucida Calligraphy", cursive;
     text-decoration: underline;
@@ -38,7 +38,7 @@ h1#titre {
 
 div#accueil {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     gap: 20px;
 }
 
@@ -50,11 +50,13 @@ div#section_logo {
 }
 
 img#logo {
+    display: block;
     height: 33vh;
     width: auto;
 }
 
 img#prochain_concert {
+    display: block;
     height: 75vh;
     width: auto;
 }
@@ -62,15 +64,20 @@ img#prochain_concert {
 div#section_concerts {
     display: flex;
     flex-grow: 1;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+div#section_concerts > div {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 
 div#section_concerts h2 {
     display: block;
-    margin: 0;
+    margin: 0px;
+    margin-left: 40px;
     width: max-content;
     font-family: "Times New Roman", serif;
     font-size: larger;
@@ -79,8 +86,7 @@ div#section_concerts h2 {
 
 ul#prochains_concerts {
     display: block;
-    margin: 0;
-    transform: translateX(-37px);
+    margin: 0px;
     font-family: "Times New Roman", serif;
     font-size: large;
 }
@@ -106,7 +112,7 @@ ul#prochains_concerts li:last-child { margin-bottom: 0; }
         text-align: center;
         text-wrap-style: balance;
     }
-    
+
     div#accueil {
         margin-top: 20px;
         flex-direction: column;
@@ -132,26 +138,11 @@ ul#prochains_concerts li:last-child { margin-bottom: 0; }
 
 }
 
-/* @media(max-width: 1000px) {} */
-
 /* - - - */
 
 /* h1#titre { border: 2px solid black; } */
 /* div#accueil { border: 2px solid black; } */
 /* div.section { border: 2px solid black; } */
+/* img#logo { border: 2px solid black; } */
+/* div#section_concerts > div { border: 2px solid black; } */
 /* ul#prochains_concerts { border: 2px solid black; } */
-
-/* - - - */
-
-/* Couleurs :
-lightcoral
-salmon
-mistyrose
----
-lavenderblush */
-
-/* Polices :
-Times New Roman
-Lucida Calligraphy
-Lucida Handwriting
-Pristina */

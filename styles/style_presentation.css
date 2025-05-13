@@ -13,7 +13,7 @@ nav#menu {
 }
 
 nav#menu button {
-    padding: 0;
+    padding: 0px;
     flex-grow: 1;
     font-family: "Times New Roman", serif;
     font-size: large;
@@ -45,7 +45,7 @@ h1#titre + div {
 
 div#description {
     height: max-content;
-    font-family: Pristina, cursive;
+    font-family: "Pristina", cursive;
     font-size: larger;
     text-align: justify;
 }
@@ -59,9 +59,9 @@ img#chorale {
     box-shadow: 0 0 5px black;
 }
 
-div:last-child {
+body div:last-child {
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
     justify-content: center;
 }
 
@@ -69,7 +69,6 @@ video#presentation {
     display: block;
     width: 50vw;
     height: auto;
-    box-shadow: 0 0 5px black;
 }
 
 /* - - - */
@@ -99,6 +98,10 @@ video#presentation {
     img#chorale {
         width: 100%;
         height: auto;
+    }
+
+    body div:last-child {
+        margin-top: 30px;
     }
 
     video#presentation {

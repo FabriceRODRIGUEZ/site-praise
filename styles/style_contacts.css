@@ -13,7 +13,7 @@ nav#menu {
 }
 
 nav#menu button {
-    padding: 0;
+    padding: 0px;
     flex-grow: 1;
     font-family: "Times New Roman", serif;
     font-size: large;
@@ -44,7 +44,10 @@ ul#informations {
 
 li.information { margin-bottom: 10px; }
 li.information:last-child { margin-bottom: 0; }
-li.information strong { text-decoration: underline; }
+
+li.information strong {
+    text-decoration: underline;
+}
 
 div#illustrations_contacts {
     display: flex;
@@ -74,7 +77,7 @@ div#repetitions {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
     nav#menu button {
         font-size: medium;
     }
@@ -92,7 +95,7 @@ div#repetitions {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     div#illustrations_contacts img {
         width: 100%;
         height: auto;

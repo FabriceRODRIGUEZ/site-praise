@@ -13,7 +13,7 @@ nav#menu {
 }
 
 nav#menu button {
-    padding: 0;
+    padding: 0px;
     flex-grow: 1;
     font-family: "Times New Roman", serif;
     font-size: large;
@@ -96,7 +96,7 @@ a.lien_concert {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
     nav#menu button {
         font-size: medium;
     }
@@ -124,7 +124,7 @@ a.lien_concert {
         width: 70%;
         height: auto;
     }
-    
+
     img.photo_concert {
         width: 100%;
         height: auto;
