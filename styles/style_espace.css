@@ -1,1 +1,97 @@
- 
+body {
+    margin: calc(50px + 20px) 50px 30px;
+    background-color: lavenderblush;
+}
+
+h1#titre {
+    display: block;
+    margin: 0 auto 30px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    text-decoration: underline;
+}
+
+div#liste_chants {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+div.chant {
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	background-color: lightcoral;
+	box-sizing: border-box;
+}
+
+h2.titre_chant {
+    display: block;
+    margin: 0 0 20px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+div.chant a {
+    display: block;
+    margin-top: 20px;
+    width: max-content;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    font-weight: bold;
+    color: maroon;
+}
+
+audio.enregistrement::-webkit-media-controls-enclosure { background-color: firebrick; }
+audio.enregistrement::-webkit-media-controls-current-time-display { text-shadow: none; }
+audio.enregistrement::-webkit-media-controls-time-remaining-display { text-shadow: none; }
+
+/* - - - */
+
+@media(max-width: 600px) {
+
+    body {
+        margin: calc(100px + 20px) 20px 20px;
+    }
+
+    h1#titre {
+        margin-bottom: 20px;
+        font-size: larger;
+    }
+
+    div#liste_chants {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    div.chant {
+        width: 100%;
+    }
+
+    h2.titre_chant {
+        font-size: large;
+    }
+
+    a.lien_concert {
+        margin-top: 10px;
+        font-size: medium;
+    }
+
+}
+
+/* - - - */
+
+/* body { border: 2px solid black; } */
+/* h1#titre { border: 2px solid black; } */
+/* div#liste_chants { border: 2px solid purple; } */
+/* h2.titre_chant { border: 2px solid black; } */
+/* div.chant a { border: 2px solid black; } */

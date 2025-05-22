@@ -1,1 +1,114 @@
- 
+body {
+    margin: 0px;
+    background-color: lavenderblush;
+}
+
+div#fenetre {
+    position: fixed;
+	left: 50vw;
+	top: 45vh;
+	translate: -50% -50%;
+	width: max-content;
+	padding: 15px 20px 20px;
+	border: 2px solid black;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	background-color: mistyrose;
+}
+
+h1#titre {
+    display: block;
+    margin: 0 auto 20px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    text-decoration: underline;
+}
+
+h1#titre + div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+label[for="code_secret"] {
+	display: block;
+	width: max-content;
+    font-size: large;
+	font-weight: bold;
+	cursor: default;
+}
+
+input#code_secret {
+    padding: 4px 0;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+	border: 1px solid grey;
+}
+
+button#validation {
+	margin-top: 20px;
+    margin-left: 50%;
+    translate: -50%;
+	padding: 5px 20px;
+	width: max-content;
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: lightsalmon;
+}
+
+button#validation:hover {
+	cursor: pointer;
+	background-color: darksalmon;
+}
+
+div#notification {
+	visibility: hidden;
+	opacity: 0;
+    position: fixed;
+    top: 20px;
+    left: 50vw;
+    translate: -50%;
+    padding: 10px 20px;
+    width: max-content;
+    font-size: large;
+    color: crimson;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    background-color: mistyrose;
+	transition: visibility 0.5s,
+				opacity 0.5s;
+}
+
+div#notification.affiche {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* - - - */
+
+@media(max-width: 600px) {
+
+    div#fenetre {
+		top: 50%;
+		width: calc(100% - 40px);
+		box-sizing: border-box;
+	}
+
+	div#fenetre h1 {
+		max-width: 100%;
+        font-size: x-large;
+        text-align: center;
+        text-wrap-style: balance;
+	}
+
+}
+
+/* - - - */
+
+/* h1#titre { border: 2px solid black; } */
+/* h1#titre + div { border: 2px solid black; } */
+/* div#notification  { border: 2px solid black; } */

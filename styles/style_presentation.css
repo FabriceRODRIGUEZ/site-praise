@@ -3,31 +3,6 @@ body {
     background-color: lavenderblush;
 }
 
-nav#menu {
-    position: absolute;
-    inset: 0 0 auto 0;
-    height: 50px;
-    display: flex;
-    background-color: darksalmon;
-    box-shadow: 0 0 5px black;
-}
-
-nav#menu button {
-    padding: 0px;
-    flex-grow: 1;
-    font-family: "Times New Roman", serif;
-    font-size: large;
-    font-weight: bold;
-    border: none;
-    background-color: transparent;
-}
-
-nav#menu button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 h1#titre {
     display: block;
     margin: 0 auto 30px;
@@ -76,12 +51,7 @@ video#presentation {
 @media(max-width: 600px) {
 
     body {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    nav#menu button {
-        font-size: medium;
+        margin: calc(100px + 20px) 20px 20px;
     }
 
     h1#titre {
