@@ -48,6 +48,8 @@ div#section_concerts > div {
     transform: translateX(-20px);
     flex-direction: column;
     gap: 15px;
+    /* ... */
+    padding: 25px;
 }
 
 div#section_concerts h2 {
