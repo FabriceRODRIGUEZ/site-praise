@@ -1,0 +1,131 @@
+body {
+    margin: calc(50px + 20px) 30px 30px;
+    background-color: lavenderblush;
+}
+
+h1#titre {
+    display: block;
+    margin: 0 auto 30px;
+    width: max-content;
+    font-family: serif;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0 grey;
+}
+
+h2#compositeur {
+    display: block;
+    margin: 30px auto 30px;
+    width: max-content;
+    font-family: serif;
+    font-size: large;
+}
+
+h2#compositeur span:first-child {
+    text-decoration: underline;
+}
+
+h2#compositeur span:last-child {
+    font-weight: normal;
+}
+
+div#paroles {
+    display: flex;
+    margin-top: 30px;
+    width: calc(2/3 * 100%);
+    font-family: serif;
+    font-size: large;
+    text-align: center;
+    line-height: 150%;
+}
+
+div#paroles > div {
+    width: 50%;
+}
+
+div#paroles p {
+    margin: 20px auto;
+    width: max-content;
+}
+
+div#paroles p:first-child {
+    margin-top: 0px;
+}
+
+div#paroles p:last-child {
+    margin-bottom: 0px;
+}
+
+div#utilitaires {
+    position: absolute;
+    right: 30px;
+    padding: 20px;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    background-color: #FFC4AD;
+    /* ... */
+    /* background-color: lightsalmon; */
+    /* background-color: #FFC4AD; */
+    /* background-color: #F0E2E6; */
+}
+
+audio.enregistrement {
+    display: block;
+    margin-bottom: 20px;
+}
+
+a.telechargement {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: max-content;
+    font-size: large;
+	font-weight: bold;
+    text-decoration: none;
+    color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+    background-color: crimson;
+}
+
+a.telechargement:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #C51236;
+}
+
+a#autre_version {
+    display: block;
+    margin: 20px auto 0;
+    width: max-content;
+    font-size: large;
+    font-weight: bold;
+    color: crimson;
+}
+
+/* audio.enregistrement::-webkit-media-controls-enclosure { border: 2px solid black; } */
+audio.enregistrement::-webkit-media-controls-panel { background-color: crimson; }
+audio.enregistrement::-webkit-media-controls-current-time-display { text-shadow: none; }
+audio.enregistrement::-webkit-media-controls-time-remaining-display { text-shadow: none; }
+/* audio.enregistrement::-webkit-media-controls-timeline-slider */
+/* audio.enregistrement::-webkit-media-controls-volume-slider */
+/* audio.enregistrement::-webkit-media-controls-toggle-closed-captions-button */
+
+/* - - - */
+
+/* @media(max-width: 600px) {
+
+    //
+
+} */
+
+/* - - - */
+
+/* body { border: 2px solid black; } */
+/* h1#titre { border: 2px solid black; } */
+/* h2#compositeur { border: 2px solid black; } */
+/* div#paroles { border: 2px solid black; } */
+/* div#paroles > div { border: 2px solid black; } */
+/* div#paroles p { border: 2px solid black; } */
+/* a#autre_version { border: 2px solid black; } */
