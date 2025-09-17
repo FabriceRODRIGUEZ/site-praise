@@ -13,14 +13,19 @@
 	<body>
 
 		<nav id="menu">
-			<button id="bouton_accueil" onclick="location.href='accueil.html'" style="padding: 5px; flex-grow: 0;">
+			<button id="bouton_accueil" onclick="location.href='accueil.html'">
 				<img src="../../res/icones/accueil.ico">
 			</button>
-			<button onclick="location.href='presentation.html'">Présentation</button>
-			<button onclick="">Membres (à venir)</button>
-			<button onclick="location.href='concerts.html'">Anciens concerts</button>
-			<button onclick="location.href='contacts.html'">Nous contacter</button>
-			<button onclick="location.href='espace.html'">Espace privé</button>
+			<div id="liste_menu">
+				<button onclick="location.href='presentation.html'">Présentation</button>
+				<button onclick="location.href='membres.html'">Membres</button>
+				<button onclick="location.href='concerts.html'">Anciens concerts</button>
+				<button onclick="location.href='contacts.html'">Nous contacter</button>
+				<button onclick="location.href='espace.html'">Espace privé</button>
+			</div>
+			<button id="bouton_menu">
+				<img src="../../res/icones/menu.ico">
+			</button>
 		</nav>
 
 		<h1 id="titre">Nous contacter</h1>

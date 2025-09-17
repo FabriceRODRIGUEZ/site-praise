@@ -74,7 +74,9 @@ ul#prochains_concerts li {
     margin-bottom: 10px;
 }
 
-ul#prochains_concerts li:last-child { margin-bottom: 0; }
+ul#prochains_concerts li:last-child {
+    margin-bottom: 0;
+}
 
 /* - - - */
 
@@ -119,6 +121,7 @@ ul#prochains_concerts li:last-child { margin-bottom: 0; }
 
 /* - - - */
 
+/* body { border: 2px solid black; } */
 /* h1#titre { border: 2px solid black; } */
 /* div#accueil { border: 2px solid black; } */
 /* div.section { border: 2px solid black; } */

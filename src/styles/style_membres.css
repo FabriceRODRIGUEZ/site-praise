@@ -1,0 +1,25 @@
+body {
+    margin: calc(50px + 20px) 50px 20px;
+    background-color: lavenderblush;
+}
+
+h1#titre {
+    display: block;
+    margin: 0 auto 30px;
+    width: max-content;
+    font-family: "Lucida Calligraphy", cursive;
+    text-decoration: underline;
+}
+
+/* - - - */
+
+/* @media(max-width: 600px) {
+
+    //
+
+} */
+
+/* - - - */
+
+/* body { border: 2px solid black; } */
+/* h1#titre { border: 2px solid black; } */

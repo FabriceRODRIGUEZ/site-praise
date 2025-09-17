@@ -109,6 +109,7 @@ div#notification.affiche {
 
 /* - - - */
 
+/* body { border: 2px solid black; } */
 /* h1#titre { border: 2px solid black; } */
 /* h1#titre + div { border: 2px solid black; } */
 /* div#notification  { border: 2px solid black; } */

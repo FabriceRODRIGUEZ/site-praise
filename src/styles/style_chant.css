@@ -14,7 +14,7 @@ h1#titre {
 
 h2#compositeur {
     display: block;
-    margin: 30px auto 30px;
+    margin: 30px auto;
     width: max-content;
     font-family: serif;
     font-size: large;
@@ -63,7 +63,8 @@ div#utilitaires {
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 0 0 5px black;
-    background-color: #FFC4AD;
+    background-color: mistyrose;
+    box-sizing: border-box;
     /* ... */
     /* background-color: lightsalmon; */
     /* background-color: #FFC4AD; */
@@ -114,11 +115,42 @@ audio.enregistrement::-webkit-media-controls-time-remaining-display { text-shado
 
 /* - - - */
 
-/* @media(max-width: 600px) {
+@media(max-width: 600px) {
 
-    //
+    body {
+        margin: calc(100px + 10px) 20px 20px;
+    }
 
-} */
+    h1#titre {
+        margin-bottom: 20px;
+    }
+
+    h2#compositeur {
+        margin: 20px auto;
+    }
+
+    div#utilitaires {
+        position: static;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    audio.enregistrement {
+        width: 100%;
+    }
+
+    div#paroles {
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    div#paroles > div {
+        width: 100%;
+    }
+
+}
 
 /* - - - */
 
