@@ -1,5 +1,5 @@
 body {
-    margin: calc(50px + 20px) 50px 20px;
+    margin: calc(50px + 20px) 50px 30px;
     background-color: lavenderblush;
 }
 
@@ -14,37 +14,34 @@ h1#titre {
 h1#titre + div {
     display: flex;
     margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    row-gap: 50px;
+}
+
+img#chorale {
+    display: block;
+    width: 45%;
+    height: auto;
+}
+
+video#presentation {
+    display: block;
+    width: 49%;
+    height: auto;
 }
 
 div#description {
-    height: max-content;
+    width: 70%;
+    translate: calc(50vw - 50% - 50px);
     font-family: "Pristina", cursive;
-    font-size: larger;
+    font-size: x-large;
     text-align: justify;
 }
 
 div#description p:first-child { margin-top: 0; }
 div#description p:last-child { margin-bottom: 0; }
-
-img#chorale {
-    width: 45%;
-    height: auto;
-    box-shadow: 0 0 5px black;
-}
-
-body div:last-child {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
-
-video#presentation {
-    display: block;
-    width: 50vw;
-    height: auto;
-}
 
 /* - - - */
 
@@ -56,27 +53,25 @@ video#presentation {
 
     h1#titre {
         margin-bottom: 20px;
-        font-size: larger;
+        font-size: x-large;
     }
 
     h1#titre + div {
-        margin-top: 20px;
+        margin-top: 15px;
         flex-direction: column;
         gap: 20px;
     }
 
-    img#chorale {
-        width: 100%;
-        height: auto;
-    }
-
-    body div:last-child {
-        margin-top: 30px;
-    }
-
+    img#chorale,
     video#presentation {
         width: 100%;
         height: auto;
+    }
+
+    div#description {
+        width: 100%;
+        translate: 0px;
+        font-size: large;
     }
 
 }
