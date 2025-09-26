@@ -13,11 +13,17 @@ h1#titre {
 
 /* - - - */
 
-/* @media(max-width: 600px) {
+@media(max-width: 600px) {
 
-    //
+    body {
+        margin: calc(100px + 20px) 20px 20px;
+    }
 
-} */
+    h1#titre {
+        margin-bottom: 20px;
+    }
+
+}
 
 /* - - - */
 

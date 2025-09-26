@@ -1,5 +1,5 @@
 body {
-    margin: calc(50px + 20px) 50px 30px;
+    margin: calc(50px + 20px) 50px 20px;
     background-color: lavenderblush;
 }
 
@@ -13,7 +13,7 @@ h1#titre {
 
 div#liste_chants {
     display: flex;
-    margin: 30px auto;
+    margin: 30px auto 0;
     width: 70%;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -48,11 +48,11 @@ button.chant:hover {
 
     h1#titre {
         margin-bottom: 20px;
-        font-size: x-large;
+        /* font-size: x-large; */
     }
 
     div#liste_chants {
-        margin: 20px 0;
+        margin: 20px 0 0;
         width: 100%;
         flex-direction: column;
     }

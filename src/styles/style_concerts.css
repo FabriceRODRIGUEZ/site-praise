@@ -1,5 +1,5 @@
 body {
-    margin: calc(50px + 20px) 50px 30px;
+    margin: calc(50px + 20px) 50px 20px;
     background-color: lavenderblush;
 }
 
@@ -73,16 +73,16 @@ a.lien_concert {
 
     h1#titre {
         margin-bottom: 20px;
-        font-size: larger;
+        /* font-size: larger; */
     }
 
     div#liste_concerts {
         margin-top: 20px;
     }
 
-    h2.titre_concert {
+    /* h2.titre_concert {
         font-size: large;
-    }
+    } */
 
     div.illustrations_concert {
         margin-bottom: 10px;

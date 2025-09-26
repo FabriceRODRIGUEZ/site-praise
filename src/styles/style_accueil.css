@@ -5,15 +5,15 @@ body {
 
 h1#titre {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 30px;
     width: max-content;
     font-family: "Lucida Calligraphy", cursive;
     text-decoration: underline;
 }
 
-div#accueil {
+body > div {
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     gap: 20px;
 }
 
@@ -45,11 +45,10 @@ div#section_concerts {
 
 div#section_concerts > div {
     display: flex;
-    transform: translateX(-20px);
     flex-direction: column;
     gap: 15px;
     /* ... */
-    padding: 25px;
+    padding-right: 15px;
 }
 
 div#section_concerts h2 {
@@ -83,18 +82,18 @@ ul#prochains_concerts li:last-child {
 @media(max-width: 600px) {
 
     body {
-        margin-top: calc(100px + 20px);
+        margin: calc(100px + 20px);
     }
 
     h1#titre {
         max-width: 100%;
         margin-bottom: 20px;
-        font-size: x-large;
+        /* font-size: x-large; */
         text-align: center;
         text-wrap-style: balance;
     }
 
-    div#accueil {
+    body > div {
         margin-top: 20px;
         flex-direction: column;
     }
@@ -109,11 +108,19 @@ ul#prochains_concerts li:last-child {
         height: auto;
     }
 
+    div#section_concerts > div {
+        padding: 0px;
+        align-items: center;
+        gap: 10px;
+    }
+
     div#section_concerts h2 {
+        margin: 0px;
         font-size: medium;
     }
 
     ul#prochains_concerts {
+        padding-right: 40px;
         font-size: medium;
     }
 
@@ -123,7 +130,7 @@ ul#prochains_concerts li:last-child {
 
 /* body { border: 2px solid black; } */
 /* h1#titre { border: 2px solid black; } */
-/* div#accueil { border: 2px solid black; } */
+/* body > div { border: 2px solid black; } */
 /* div.section { border: 2px solid black; } */
 /* img#logo { border: 2px solid black; } */
 /* div#section_concerts > div { border: 2px solid black; } */

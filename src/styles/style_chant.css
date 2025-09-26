@@ -1,5 +1,5 @@
 body {
-    margin: calc(50px + 20px) 30px 30px;
+    margin: calc(50px + 20px) 20px 20px;
     background-color: lavenderblush;
 }
 
@@ -57,7 +57,7 @@ div#paroles p:last-child {
 
 div#utilitaires {
     position: absolute;
-    right: 30px;
+    right: 20px;
     padding: 20px;
     width: max-content;
     border: 2px solid black;
@@ -118,7 +118,7 @@ audio.enregistrement::-webkit-media-controls-time-remaining-display { text-shado
 @media(max-width: 600px) {
 
     body {
-        margin: calc(100px + 10px) 20px 20px;
+        margin-top: calc(100px + 20px);
     }
 
     h1#titre {
@@ -126,12 +126,12 @@ audio.enregistrement::-webkit-media-controls-time-remaining-display { text-shado
     }
 
     h2#compositeur {
-        margin: 20px auto;
+        margin: 20px auto 25px;
     }
 
     div#utilitaires {
         position: static;
-        margin: 20px 0;
+        margin: 25px 0 20px;
         width: 100%;
     }
 

@@ -98,7 +98,7 @@ div#notification.affiche {
 		box-sizing: border-box;
 	}
 
-	div#fenetre h1 {
+	h1#titre {
 		max-width: 100%;
         font-size: x-large;
         text-align: center;

@@ -5,14 +5,14 @@ body {
 
 h1#titre {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 30px;
     width: max-content;
     font-family: "Lucida Calligraphy", cursive;
     text-decoration: underline;
 }
 
 ul#informations {
-    margin: 20px 0;
+    margin: 30px 0 20px;
     font-family: "Times New Roman", serif;
     font-size: large;
 }
@@ -52,11 +52,12 @@ div#repetitions {
         margin: calc(100px + 20px) 20px 20px;
     }
 
-    h1#titre {
+    /* h1#titre {
         font-size: larger;
-    }
+    } */
 
     ul#informations {
+        margin-top: 20px;
         font-size: medium;
         text-wrap-style: balance;
     }
