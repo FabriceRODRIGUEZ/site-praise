@@ -9,7 +9,7 @@ h1#titre {
     width: max-content;
     font-family: serif;
     text-decoration: underline;
-    text-shadow: 2px 2px 0 grey;
+    /* text-shadow: 2px 2px 0 grey; */
 }
 
 h2#compositeur {
@@ -32,7 +32,7 @@ div#paroles {
     display: flex;
     margin-top: 30px;
     width: calc(2/3 * 100%);
-    font-family: serif;
+    justify-content: end;
     font-size: large;
     text-align: center;
     line-height: 150%;
@@ -53,6 +53,10 @@ div#paroles p:first-child {
 
 div#paroles p:last-child {
     margin-bottom: 0px;
+}
+
+div#paroles .italique {
+    font-style: italic;
 }
 
 div#utilitaires {

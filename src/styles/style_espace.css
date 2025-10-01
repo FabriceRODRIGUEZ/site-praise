@@ -1,28 +1,35 @@
 body {
-    margin: calc(50px + 20px) 50px 20px;
+    margin: calc(50px + 20px) 50px 30px;
     background-color: lavenderblush;
 }
 
 h1#titre {
-    display: block;
     margin: 0 auto 30px;
     width: max-content;
-    font-family: "Lucida Calligraphy", cursive;
     text-decoration: underline;
 }
 
-div#liste_chants {
+div#chants_actuels {
+    margin-bottom: 50px;
+}
+
+h2.titre_section {
+    margin: 0 auto 30px;
+    width: max-content;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+div.liste_chants {
     display: flex;
-    margin: 30px auto 0;
-    width: 70%;
-    justify-content: space-between;
+    margin-top: 30px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 20px;
 }
 
 button.chant {
-    padding: 10px 20px;
-    width: 35%;
+    padding: 15px 20px;
+    width: 40%;
     font-family: serif;
     font-size: large;
 	font-weight: bold;
@@ -46,14 +53,16 @@ button.chant:hover {
         margin: calc(100px + 20px) 20px 20px;
     }
 
-    h1#titre {
-        margin-bottom: 20px;
-        /* font-size: x-large; */
+    div#chants_actuels {
+        margin-bottom: 30px;
     }
 
-    div#liste_chants {
-        margin: 20px 0 0;
-        width: 100%;
+    h2.titre_section {
+        margin-bottom: 20px;
+    }
+
+    div.liste_chants {
+        margin-top: 20px;
         flex-direction: column;
     }
 
@@ -67,4 +76,6 @@ button.chant:hover {
 
 /* body { border: 2px solid black; } */
 /* h1#titre { border: 2px solid black; } */
-/* div#liste_chants { border: 2px solid black; } */
+/* div.section { border: 2px solid black; } */
+/* h2.titre_section { border: 2px solid black; } */
+/* div.liste_chants { border: 2px solid black; } */

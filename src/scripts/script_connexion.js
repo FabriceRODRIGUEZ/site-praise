@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => start())
+document.addEventListener("DOMContentLoaded", () => activateForm())
 let toastTimeout
 
 
-function start() {
+function activateForm() {
     const codeInput = document.querySelector("input#code_secret")
     const submitButton = document.querySelector("button#validation")
 
